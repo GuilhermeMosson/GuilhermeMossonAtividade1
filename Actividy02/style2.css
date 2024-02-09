@@ -77,12 +77,38 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .leftContact{
     width: 600px;
     height: 500px;
     border: 3px solid black;
+    background-color: rgb(219, 236, 219);
+    align-items: center;
+    text-align: center;
+}
+
+.contatoTexto{
+    width: 100%;
+    margin-bottom: 100px;
+   
+}
+
+.labelContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: wrap;
+    margin-bottom: 50px;
+}
+
+input{
+    width: 60%;
+}
+
+#msg{
+    margin-top: 80px;
 }
 
 .rightContact{
@@ -162,18 +188,25 @@ a:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 150px
 }
 
 .TecDiv{
+    width: 300px;
+    height: 550px;
     border: 2px solid black;
-    
+    text-align: center;
+    align-items: center;
+
 }
 
 .relImgTec{
     position: relative;
     height: 150px;
-    width: 150px;
+    width: 150px;  
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
 }
 
 .ImgTec{
