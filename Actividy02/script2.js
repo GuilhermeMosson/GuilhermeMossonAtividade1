@@ -13,7 +13,7 @@ function conferirMensagem(){
 }
 
 function enviar(){
-    var numeroTel = "5541987413029";
+    var numeroTel = "5541987419203";
     var linkWhatsApp = "https://wa.me/" + numeroTel + "?text=Nome: " + nomeGlobal + " - " + msgGlobal;
 
 

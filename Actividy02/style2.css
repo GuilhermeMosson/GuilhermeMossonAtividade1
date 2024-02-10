@@ -35,7 +35,7 @@ ul{
 .perfil01{
     padding-top: 25px;
     width: 100%;
-    height: 600px;
+    height: 95vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -48,7 +48,7 @@ ul{
 .perfil02{
     padding-top: 25px;
     width: 100%;
-    height: 600px;
+    height: 95vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,15 +59,15 @@ ul{
 }
 
 .tecno{
-    padding-top: 70px;
+    padding-top: 60px;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-color: darkgrey;
 
 }
 
 .contatoDiv{
-    padding-top: 70px;
+    padding-top: 90px;
     padding-bottom: 70px;
     width: 100%;
     height: auto;
@@ -91,6 +91,7 @@ ul{
 
 .contatoTexto{
     width: 100%;
+    margin-top: 20px;
     margin-bottom: 100px;
    
 }
@@ -104,17 +105,35 @@ ul{
 }
 
 input{
-    width: 60%;
+    width: 70%;
+    height: 25px;
+    background-color: rgb(0, 92, 61);
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 #msg{
-    margin-top: 80px;
+    margin-top: 30px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+}
+
+#msg:hover{
+    border: 2px solid rgb(27, 116, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .rightContact{
     width: 600px;
     height: 500px;
     border: 3px solid black;
+    text-align: center;
 }
 
 a{
@@ -175,7 +194,7 @@ a:hover{
 .descDiv{
     border: 2px solid black;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: calc(10px + 1.5vh);
     width: 40vw;
     height: 25vh;
     padding: 10px;
@@ -188,30 +207,65 @@ a:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 150px
+    gap: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .TecDiv{
-    width: 300px;
-    height: 550px;
+    position:relative;  
+    width: calc(50px + 20vw);
+    height: calc(125px + 60vh);
     border: 2px solid black;
-    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    text-align:justify;
     align-items: center;
+    transition: all 100ms linear;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 
+.TecDiv:hover{
+    border: 2.5px solid aqua;
+    font-size: 18px;
+    transform: scale(1.1);
+    transition: all 200ms linear;
 }
 
 .relImgTec{
     position: relative;
-    height: 150px;
-    width: 150px;  
-    text-align: center;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    height: 120px;
+    width: 120px;  
+    margin-bottom: 35px;
+    margin-top: 5px;
+    overflow: hidden; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25%;
 }
 
-.ImgTec{
+.ImgTec1{
     position: absolute;
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
+    height: 140px;
+    width: 140px;
+    left: -9px;
+    top: -7px;
+}
+
+.ImgTec2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 9px;
+    top: 16px;
+}
+
+.ImgTec3{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    left: 6px;
+    top: 8px;
 }
