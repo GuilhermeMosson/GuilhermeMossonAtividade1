@@ -13,9 +13,8 @@ function conferirMensagem(){
 }
 
 function enviar(){
-    var numeroTel = "554198799999";
+    var numeroTel = "554198799999"; /*Lembrar de colocar o nº certo*/
     var linkWhatsApp = "https://wa.me/" + numeroTel + "?text=Nome: " + nomeGlobal + " - " + msgGlobal;
 
-
-    window.open(linkWhatsApp, "_blank");
+    window.open(linkWhatsApp, "_blank");/*Abre o zap em outra janela*/
 }

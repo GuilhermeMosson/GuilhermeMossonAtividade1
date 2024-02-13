@@ -32,7 +32,19 @@ ul{
     font-size: 20px;
 }
 
-.perfil01{
+a{
+    text-decoration: none;
+    color:azure;
+}
+
+a:hover{
+    color: aqua;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.perfil01{ /*primeira div para os perfis*/
     padding-top: 25px;
     width: 100%;
     height: 95vh;
@@ -41,7 +53,7 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    border: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 .perfil02{
@@ -53,153 +65,7 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    border: 3px solid black;
-}
-
-.tecno{
-    padding-top: 60px;
-    width: 100%;
-    height: 110vh;
-    background-color: darkgrey;
-
-}
-
-.contatoDiv{
-    padding-top: 90px;
-    padding-bottom: 70px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.leftContact{
-    width: 600px;
-    height: 500px;
-    border: 3px solid rgb(76, 80, 76);
-    background-color: rgb(219, 236, 219);
-    align-items: center;
-    text-align: center;
-}
-
-.contatoTexto{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 100px;
-   
-}
-
-.labelContato{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: wrap;
-    margin-bottom: 50px;
-    font-size: 20px;
-}
-
-input{
-    width: 70%;
-    height: 25px;
-    background-color: rgb(0, 92, 61);
-    color: aliceblue;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-}
-
-#msg{
-    margin-top: 30px;
-    border: none;
-    background-color: greenyellow;
-    border-radius: 25px;
-    width: 200px;
-    height: 30px;
-}
-
-#msg:hover{
-    border: 2px solid rgb(27, 116, 0);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.rightContact{
-    width: 600px;
-    height: 500px;
-    border: 3px solid rgb(76, 80, 76);
-    background-color: rgb(219, 236, 219);
-    color: rgb(76, 80, 76);
-    text-align: center; 
-}
-
-#textRight{
-    margin-top: 20px;
-    color: rgb(36, 35, 35);
-    font-size: 20px;
-}
-
-.confirma_div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: wrap;
-    font-size: 20px;
-    margin: 80px 0px 0px 0px;
-}
-
-#confNome{
-    margin: 10px;
-    margin-bottom: 50px;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 92, 61);
-    border-radius: 5px;
-    width: 400px;
-    color: aliceblue;
-}
-
-#confMsg{
-    margin: 10px;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 92, 61);
-    border-radius: 5px;
-    width: 400px;
-    color: aliceblue;
-}
-
-#enviar{
-    margin-top: 30px;
-    border: none;
-    background-color: greenyellow;
-    border-radius: 25px;
-    width: 200px;
-    height: 30px;
-}
-
-#enviar:hover{
-    border: 2px solid rgb(27, 116, 0);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-a{
-    text-decoration: none;
-    color: rgb(82, 62, 62);
-}
-
-a:hover{
-    color: aqua;
-    cursor: pointer;
-    font-weight: bold;
+    border-bottom: 3px solid black;
 }
 
 .rel{
@@ -254,6 +120,15 @@ a:hover{
     height: 25vh;
     padding: 10px;
     margin-top: 30px;
+}
+
+
+.tecno{ /*primeira div das tecnologias*/
+    padding-top: 60px;
+    width: 100%;
+    height: 110vh;
+    background-color: darkgrey;
+    border-bottom: 3px solid black;
 }
 
 .tecnologias{
@@ -323,3 +198,133 @@ a:hover{
     left: 6px;
     top: 8px;
 }
+
+
+.contatoDiv{ /*Primeira div para o contato*/
+    padding-top: 90px;
+    padding-bottom: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftContact{
+    width: 600px;
+    height: 500px;
+    border: 3px solid rgb(76, 80, 76);
+    background-color: rgb(219, 236, 219);
+    align-items: center;
+    text-align: center;
+}
+
+.contatoTexto{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.labelContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: wrap;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+input{
+    width: 70%;
+    height: 25px;
+    background-color: rgb(0, 92, 61);
+    color: aliceblue;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#msg{
+    margin-top: 30px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+}
+
+#msg:hover{
+    border: 2px solid rgb(27, 116, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.rightContact{
+    width: 600px;
+    height: 500px;
+    border: 3px solid rgb(76, 80, 76);
+    background-color: rgb(219, 236, 219);
+    color: rgb(76, 80, 76);
+    text-align: center; 
+}
+
+#textRight{
+    margin-top: 20px;
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+}
+
+.confirma_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: wrap;
+    font-size: 20px;
+    margin: 80px 0px 0px 0px;
+}
+
+#confNome{
+    position: relative;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 92, 61);
+    border-radius: 5px;
+    width: 450px;
+    color: aliceblue;
+}
+
+#confMsg{
+    position: relative;
+    margin: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 92, 61);
+    border-radius: 5px;
+    width: 450px;
+    color: aliceblue;
+}
+
+#enviar{
+    margin-top: 20px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+}
+
+#enviar:hover{
+    border: 2px solid rgb(27, 116, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
