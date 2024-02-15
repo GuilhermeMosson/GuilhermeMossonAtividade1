@@ -10,6 +10,7 @@ html{
 body{
     font-family: 'Kanit', sans-serif;
     overflow-x: hidden;
+    background-color:azure;
 }
 
 header{
@@ -53,7 +54,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.411);
 }
 
 .perfil02{
@@ -65,13 +66,13 @@ a:hover{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.411);
 }
 
 .rel{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     overflow: hidden;
     border-radius: 50%;
     border: 2px solid rgba(0, 0, 0, 0.678);
@@ -81,16 +82,16 @@ a:hover{
 
 .fotoPerfil01{
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     left: -20px;
     transition: all 300ms linear;
 }
 
 .fotoPerfil02{
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     left: -20px;
     transition: all 300ms linear;
 }
@@ -106,29 +107,33 @@ a:hover{
 }
 
 .nome{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.678);
     border-radius: 15px ;
     text-align: center;
     font-size: 40px;
 }
 
 .descDiv{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.678);
     border-radius: 10px;
     font-size: calc(10px + 1.5vh);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
     width: 40vw;
     height: 25vh;
-    padding: 10px;
+    padding: 15px;
     margin-top: 30px;
 }
 
 
 .tecno{ /*primeira div das tecnologias*/
     padding-top: 60px;
+    text-align: center;
     width: 100%;
     height: 110vh;
     background-color: darkgrey;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.411);
+
 }
 
 .tecnologias{
@@ -142,9 +147,8 @@ a:hover{
 
 .TecDiv{
     position:relative;  
-    width: calc(50px + 15vw);
+    width: 350px;
     height: calc(135px + 60vh);
-    border: 2px solid rgb(75, 75, 75);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -154,47 +158,55 @@ a:hover{
     transition: all 100ms linear;
     margin-top: 40px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgba(68, 68, 68, 0.575);
+    color: aliceblue;
 }
 
 .TecDiv:hover{
-    border: 2.5px solid aqua;
-    font-size: 18px;
+    border: 2.5px solid rgba(0, 255, 255, 0.438);
+    font-size: 22px;
     transform: scale(1.1);
     transition: all 200ms linear;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#tituloTec{
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .relImgTec{
     position: relative;
-    height: 120px;
-    width: 120px;  
+    height: 160px;
+    width: 160px;  
     margin-bottom: 35px;
-    margin-top: 5px;
+    margin-top: 15px;
     overflow: hidden; 
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    border-radius: 25%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: darkgrey;
+    border-radius: 20%;
 }
 
 .ImgTec1{
     position: absolute;
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
     left: -9px;
     top: -7px;
 }
 
 .ImgTec2{
     position: absolute;
-    height: 100px;
-    width: 100px;
-    right: 9px;
+    height: 130px;
+    width: 130px;
+    right: 14px;
     top: 16px;
 }
 
 .ImgTec3{
     position: absolute;
-    height: 110px;
-    width: 110px;
+    height: 150px;
+    width: 150px;
     left: 6px;
     top: 8px;
 }
@@ -217,10 +229,12 @@ a:hover{
 .leftContact{
     width: 600px;
     height: 500px;
-    border: 3px solid rgb(76, 80, 76);
+    color: rgb(76, 80, 76);
+    border: 2px solid rgba(0, 0, 0, 0.411);
     background-color: rgb(219, 236, 219);
     align-items: center;
     text-align: center;
+    border-radius: 20px;
 }
 
 .contatoTexto{
@@ -241,7 +255,20 @@ a:hover{
 input{
     width: 70%;
     height: 25px;
-    background-color: rgb(0, 92, 61);
+    background-color: rgba(0, 92, 61, 0.856);
+    color: aliceblue;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+textarea{
+    width: 70%;
+    height: 25px;
+    padding: 5px;
+    background-color: rgba(0, 92, 61, 0.856);
     color: aliceblue;
     border: none;
     outline: none;
@@ -251,7 +278,6 @@ input{
 }
 
 #msg{
-    margin-top: 30px;
     border: none;
     background-color: greenyellow;
     border-radius: 25px;
@@ -267,10 +293,12 @@ input{
 .rightContact{
     width: 600px;
     height: 500px;
-    border: 3px solid rgb(76, 80, 76);
+    border: 2px solid rgba(0, 0, 0, 0.411);
     background-color: rgb(219, 236, 219);
     color: rgb(76, 80, 76);
     text-align: center; 
+    border-radius: 20px;
+
 }
 
 #textRight{
@@ -294,10 +322,13 @@ input{
     margin-bottom: 50px;
     font-size: 16px;
     display: flex;
+    flex: wrap;
     justify-content: center;
-    background-color: rgb(0, 92, 61);
+    background-color: rgba(0, 92, 61, 0.856);
     border-radius: 5px;
     width: 450px;
+    overflow-wrap: break-word;
+    word-break: break-word;
     color: aliceblue;
 }
 
@@ -306,9 +337,11 @@ input{
     font-size: 14px;
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 92, 61);
+    background-color: rgba(0, 92, 61, 0.856);
     border-radius: 5px;
     width: 450px;
+    overflow-wrap: break-word;
+    word-break: break-word;
     color: aliceblue;
 }
 
