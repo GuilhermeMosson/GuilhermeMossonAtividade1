@@ -229,7 +229,7 @@ a:hover{
     height: 500px;
     color: rgb(76, 80, 76);
     border: 2px solid rgba(0, 0, 0, 0.411);
-    background-color: rgb(219, 236, 219);
+    background-color: rgba(213, 236, 232, 0.849);
     align-items: center;
     text-align: center;
     border-radius: 20px;
@@ -255,7 +255,7 @@ input{
     width: 90%;
     height: 25px;
     padding: 0px 6px 0px 6px;
-    background-color: rgba(223, 248, 223, 0.938);
+    background-color: rgba(236, 255, 240, 0.938);
     color:darkslategray;
     border: none;
     outline: none;
@@ -267,7 +267,7 @@ textarea{
     width: 90%;
     height: 81px;
     padding: 5px;
-    background-color: rgba(223, 248, 223, 0.938);
+    background-color: rgba(236, 255, 240, 0.938);
     color:darkslategray;
     border: none;
     outline: none;
@@ -292,7 +292,7 @@ textarea{
     width: 600px;
     height: 500px;
     border: 2px solid rgba(0, 0, 0, 0.411);
-    background-color: rgb(219, 236, 219);
+    background-color: rgba(213, 236, 232, 0.849);
     color: rgb(76, 80, 76);
     text-align: center; 
     border-radius: 20px;
